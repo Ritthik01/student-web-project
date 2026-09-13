@@ -1,1 +1,192 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ritthik | Welcome</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(
+                135deg,
+                #090979,
+                #00d4ff,
+                #ff00cc
+            );
+
+            overflow: hidden;
+        }
+
+        /* Main Card */
+
+        .card {
+            width: 90%;
+            max-width: 700px;
+            padding: 60px 40px;
+
+            text-align: center;
+
+            background: rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(15px);
+
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 25px;
+
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .emoji {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        h1 span {
+            color: #00ffe1;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: #ffd6f5;
+        }
+
+        p {
+            font-size: 18px;
+            color: #eee;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Button */
+
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+
+            background: #00ffe1;
+            color: #111;
+
+            text-decoration: none;
+            font-weight: bold;
+
+            border-radius: 30px;
+
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 25px #00ffe1;
+        }
+
+        /* Decorative Circles */
+
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(2px);
+            opacity: 0.5;
+        }
+
+        .circle1 {
+            width: 200px;
+            height: 200px;
+            background: #ff00cc;
+            top: -50px;
+            left: -50px;
+        }
+
+        .circle2 {
+            width: 250px;
+            height: 250px;
+            background: #00ffe1;
+            bottom: -80px;
+            right: -60px;
+        }
+
+        .circle3 {
+            width: 100px;
+            height: 100px;
+            background: #ffff00;
+            top: 20%;
+            right: 10%;
+        }
+
+        @media (max-width: 600px) {
+
+            .card {
+                padding: 45px 25px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Decorative Background -->
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+
+    <!-- Main Content -->
+    <div class="card">
+
+        <div class="emoji">👋</div>
+
+        <h1>
+            Welcome, <span>Ritthik!</span>
+        </h1>
+
+        <h2>
+            Welcome to My Webpage 🚀
+        </h2>
+
+        <p>
+            Hello! I'm Ritthik.
+            This is my little corner of the web,
+            where ideas become reality.
+        </p>
+
+        <a href="#" class="btn">
+            Explore More ✨
+        </a>
+
+    </div>
+
+</body>
+</html>
+```
 
